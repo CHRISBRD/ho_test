@@ -11,27 +11,29 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/CHRISBRD/ho_test.git
-cd ho_test
+```
 
-``````
-Install the required dependencies:
 ```bash
+cd ho_test
+```
 
+Install the required dependencies:
+
+```bash
 npm install
 ```
 Usage
 To run the CLI tool:
 
 ```bash
-
 npm start
 ```
+
 The tool will prompt you to enter the name of a Pokémon. After entering the name, it will fetch and display the evolution chain for the provided Pokémon.
 
 
 To run the tests:
 
 ```bash
-
 npm run test
 ```

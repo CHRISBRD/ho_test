@@ -8,7 +8,7 @@ For deployment, containerizing the application using Docker and hosting it on a 
 
 #### What would your considerations be in regard to testing it?
 
-If the application included a ui the I would recommend the Cypress framework. But for a microservice then tests written is Jest would be my recommendation. Testing should also be automatically triggered by your CI process.
+If the application included a UI the I would recommend the Cypress framework. But for a microservice then tests written is Jest would be my recommendation. Testing should also be automatically triggered by your CI process.
 
 #### How would you go about making deployments and releases?
 
@@ -16,11 +16,11 @@ Setting up a CI/CD pipeline streamlines deployments and releases. Platforms like
 
 #### Do you have any thoughts on how the API would be versioned and managed?
 
-There are various approaches that can be taken for api versioning, there are a few factors that need to be considered when choosing an approach; who is the consumer of the api and how would they be impacted by breaking changes, how often is the api likely to change and will those changes be breaking and how trictly do you want to adhere to REST principals. URI Versioning is probably the most straightforward approach and is usually acceptable. 
+There are various approaches that can be taken for api versioning, there are a few factors that need to be considered when choosing an approach; who is the consumer of the api and how would they be impacted by breaking changes, how often is the api likely to change and will those changes be breaking and how strictly do you want to adhere to REST principals. URI Versioning is probably the most straightforward approach and is usually acceptable. 
 
 #### Lastly any thoughts on non-functional requirements?
 
-There are many non functional requirements for a microservice Key considerations include: 
+There are many non-functional requirements for a microservice Key considerations include: 
 
 Security - Implement authentication and authorization mechanisms, and regularly patch vulnerabilities.
 
