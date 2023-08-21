@@ -1,4 +1,4 @@
-###Pokémon Evolution Chain CLI
+### Pokémon Evolution Chain CLI
 
 This command-line interface tool fetches and displays the evolution chain of a given Pokémon using the PokeAPI.
 
